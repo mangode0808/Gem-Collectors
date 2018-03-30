@@ -20,13 +20,11 @@ function reset () {
 	img4Num = Math.floor(Math.random() * 12) + 1;
 	counter = 0;
 }
-
 	var img1Num = Math.floor(Math.random() * 12) + 1;
 
 	console.log(img1Num);
 
 		$('#img1').on('click', function() {
-
 
 			counter = counter + parseInt(img1Num);
 			console.log("Counter:" + counter);
@@ -40,7 +38,6 @@ function reset () {
 				console.log(wins)
 				reset();
 
-
 			} else if ( counter > randomNumber){
 				$('#status').html('You lost!')
 				losses ++;
@@ -49,7 +46,6 @@ function reset () {
 				reset();
 
 			}
-
 		});
 
 			var img2Num = Math.floor(Math.random() * 12) + 1;
