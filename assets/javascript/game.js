@@ -36,6 +36,7 @@ function reset () {
 				wins ++;
 				$('#win').html(wins);
 				console.log(wins)
+				alert("You Won!")
 				reset();
 
 			} else if ( counter > randomNumber){
@@ -43,6 +44,7 @@ function reset () {
 				losses ++;
 				$('#loss').html(losses);
 				console.log(losses)
+				alert("You lost!")
 				reset();
 
 			}
@@ -65,6 +67,7 @@ function reset () {
 					wins ++;
 					$('#win').html(wins);
 					console.log(wins)
+					alert("You Won!")
 					reset();
 
 
@@ -73,6 +76,7 @@ function reset () {
 					losses ++;
 					$('#loss').html(losses);
 					console.log(losses)
+					alert("You lost!")
 					reset();
 
 				}
@@ -95,6 +99,7 @@ function reset () {
 					wins ++;
 					$('#win').html(wins);
 					console.log(wins)
+					alert("You Won!")
 					reset();
 
 
@@ -103,6 +108,7 @@ function reset () {
 					losses ++;
 					$('#loss').html(losses);
 					console.log(losses)
+					alert("You lost!")
 					reset();
 
 				}
@@ -125,6 +131,7 @@ function reset () {
 					wins ++;
 					$('#win').html(wins);
 					console.log(wins)
+					alert("You Won!")
 					reset();
 
 
@@ -133,6 +140,7 @@ function reset () {
 					losses ++;
 					$('#loss').html(losses);
 					console.log(losses)
+					alert("You lost!")
 					reset();
 
 				}
